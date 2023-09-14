@@ -14,3 +14,11 @@ At this moment this application uses following microservices:
 7. CSM-CloudServer
 
 # It is still in development
+
+Use to build docker image:
+
+    $ docker build -f ./Dockerfile -t csm-works .
+
+Use to run container from image:
+
+    $ docker run --name csm-works -p 8325:8325 -d csm-works
